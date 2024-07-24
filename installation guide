@@ -1,0 +1,5 @@
+git clone https://github.com/MrTrojan65/CYBER-CLI.git
+
+cd CYBER-CLI
+
+python CYBERcli.py
