@@ -18,7 +18,7 @@ theme = {
     'underlined': '\033[4m'
 }
 
-class TermuxCLI(cmd.Cmd):
+class CYBERCLI(cmd.Cmd):
     intro = f"""
 {theme['bold']}{theme['okgreen']}
 
@@ -279,4 +279,4 @@ ___  _  _  ____  ____  ____     ___  __    ____
         logging.error(f'Command error: {stderr}')
 
 if __name__ == '__main__':
-    TermuxCLI().cmdloop()
+    CYBERCLI().cmdloop()
